@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: black;
+    padding: 1%;
+    display: flex;
+    align-items: center; 
+}
+
+header img {
+    height: 110px;
+}
+
+header h1 {
+    font-size: 40px;
+    flex: 1;
+    text-align: center;
+    font-family: liz
+}
+
+@font-face {
+    font-family: liz;
+    src: url(RubikWetPaint-Regular.ttf);
+}
+    
+
+.soacha {
+    display: flex;       
+    padding: 15px;
+
+}
+
+.soacha__parque {
+    text-align: center;      
+    margin: 10px;   
+    width: 35%;       
+    background-color: rgb(239, 241, 117);   
+}
+
+.soacha__image {
+    width: 100%;         
+    height: 70%;      
+    border-radius: 3%; 
+}
+
+.soacha__title {
+    margin-bottom: 10px;
+}
+
+.soacha__description {
+    margin-top: 10px; 
+}
+.soacha--museo{
+    background-color: #659167;
+}
+.soacha__parque::first-letter {
+    font-size: 30px; 
+}
+.soacha__parque:hover {
+    color: red; 
+}
+.soacha__parque p {
+    color: #232b23; 
+    font-size: 17px;
+}
+
+.gastronomia__table {
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.table__header,
+.table__horizontal {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.table__header {
+    background-color: #f2f2f2;
+}
+
+.table__contenido:nth-child(even) {
+    background-color: #f9f9f9; 
+} 
+.gastronomia {
+    max-width: 100%; 
+    margin: 0 ; 
+}
+.gastronomia h2:hover {
+    color: red; 
+}
+.gastronomia h2{
+    background-color: #4CAF50;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1%;
+    margin: 0;
+}
+.gastronomia p{
+    font-size: 1.3rem;
+    padding: 1%;
+}
+
+.gastronomia {
+    max-width: 100%; 
+    margin: 0 ; 
+}
+.experiencias h2:hover {
+    color: red; 
+}
+.experiencias h2{ 
+    background-color: #4CAF50;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1%;
+    margin: 0;
+}
+.experiencias p{
+    font-size: 1.3rem;
+    padding: 1%;
+}
+.video-container {
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px; 
+}
+
+.video-container section {
+    flex: 1;
+    margin: 0 10px; 
+}
+
+video {
+    width: 100%; 
+    height: 440px; 
+    border: 3px solid black; 
+    border-radius: 5px;
+}
+footer{
+    background-color: #4CAF50;
+    color: black;
+    padding: 1.8%;
+    display: flex;
+    justify-content: center; 
+}
+footer p{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+footer p:hover {
+    color: red; 
+}
+@media (max-width: 768px){
+    html,body{
+        height: auto;
+    }
+    section{
+        display: flex;
+        flex-direction: column;}
+    .soacha__parque{
+        width: 100%;
+        
+    }
+}
+
+    
+
